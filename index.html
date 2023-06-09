@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chile + Tech</title>
+  <link rel="icon" href="./icon-heart.png">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c039a348ca.js" crossorigin="anonymous"></script>
+  <script src="./index.js" defer></script>
+</head>
+<body class="open">
+  <header class="header">
+    <h1 class="header__logo">CHILE <span class="header__logo--signo">+</span> TECH</h1>
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li class="header__item"><a class="header__link" href="#">Inicio</a></li>
+        <li class="header__item"><a class="header__link" href="#cursos">Cursos</a></li>
+        <li class="header__item"><a class="header__link" href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="theme" class="header__theme">
+      <i class="header__theme--span header__theme--light fa-solid fa-sun"></i>
+      <i class="header__theme--span header__theme--dark fa-solid fa-moon"></i>
+    </button>
+    <i id="menu" class="header__menu fa-solid fa-bars"></i>
+    <i id="close" class="header__close fa-solid fa-xmark"></i>
+  </header>
+  <main class="main">
+    <div class="main__info">
+      <div class="main__intro">
+        <p>Únete al proyecto de aprendizaje online más entretenido y grande de Latinoamérica</p>
+        <p>Clases online en vivo dictadas por referentes de la industria, enfoque 100% práctico, mentorías personalizadas y acceso a una comunidad donde pondrás potenciar tu aprendizaje</p>
+        <button>empieza ¡ya!</button>
+      </div>
+      <div class="main__img">
+        <img class="img" src="./pro.png" alt="">
+      </div>
+    </div>
+    <div id="cursos" class="curses">
+      <h2 class="curses__title">Cursos</h2>
+      <div class="curses__group">
+        <div class="curses__content">
+          <h3>Frontend Developer</h3>
+          <p>El desarrollo web front-end consiste en la conversión de datos en una interfaz gráfica para que el usuario pueda ver e interactuar con la información de forma digital usando HTML, CSS y JavaScript.</p>
+          <div class="curses__icons">
+            <i class="fa-brands fa-html5" style="color: rgb(206, 3, 3);"></i>
+            <i class="fa-brands fa-css3-alt" style="color: rgb(3, 115, 206);"></i>
+            <i class="fa-brands fa-js" style="color: rgb(224, 210, 3);"></i>
+          </div>
+        </div>
+        <div class="curses__content">
+          <h3>Backend Developer</h3>
+          <p>Backend Developer diseñará, modificará, reparará y mantendrá aplicaciones de software o sistemas de información, entre otros servicios, garantizando un uso fluido y sin contratiempos para los usuarios finales</p>
+          <div class="curses__icons">
+            <i class="fa-brands fa-python" style="color: #0045bd;"></i>
+            <i class="fa-brands fa-node-js" style="color: #00ff04;"></i>
+            <i class="fa-solid fa-database"></i>
+          </div>
+        </div>
+        <div class="curses__content">
+          <h3>Full-Stack Developer</h3>
+          <p>full stack es un especialista en el desarrollo de sitios web que integra el diseño para el cliente en una página (front end), así como la programación y mantenimiento de la arquitectura interna del sitio (back end).</p>
+          <div class="curses__icons">
+            <i class="fa-brands fa-react" style="color: #00fbff;"></i>
+            <i class="fa-brands fa-node-js" style="color: #00ff04;"></i>
+            <i class="fa-solid fa-database"></i>
+          </div>
+        </div>
+        <div class="curses__content">
+          <h3>Data Analytics</h3>
+          <p>El análisis de datos (DA) es el proceso de examinar conjuntos de datos para encontrar tendencias y sacar conclusiones sobre la información que contienen .</p>
+          <div class="curses__icons">
+            <i class="fa-sharp fa-solid fa-cloud"></i>
+            <i class="fa-brands fa-python" style="color: #0045bd;"></i>
+            <i class="fa-solid fa-database"></i>
+          </div>
+        </div>
+        <div class="curses__content">
+          <h3>Ciberseguridad</h3>
+          <p>La seguridad informática, también conocida como ciberseguridad, es el área que se enfoca en la protección de la infraestructura computacional</p>
+          <div class="curses__icons">
+            <i class="fa-solid fa-terminal"></i>
+            <i class="fa-brands fa-linux"></i>
+            <i class="fa-sharp fa-solid fa-lock"></i>
+          </div>
+        </div>
+        <div class="curses__content">
+          <h3>Inteligencia Artificial</h3>
+          <p>inteligencia artificial diseña y desarrolla sistemas capaces de solucionar problemas reales de forma independiente.</p>
+          <div class="curses__icons">
+            <i class="fa-solid fa-sitemap"></i>
+            <i class="fa-solid fa-robot"></i>
+            <i class="fa-brands fa-python" style="color: #0045bd;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="main__form">
+      <form>
+        <label for="">Contacta con nosotros dejandonos un mensaje.</label>
+        <textarea name="" id="" rows="10" placeholder="Hola, Me gustaria..."></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>Create by <a href="https://github.com/anghy73" target="_blank">Andy</a>💙</p>
+  </footer>
+</body>
+</html>
