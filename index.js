@@ -14,10 +14,10 @@ theme.addEventListener('click', (e) => {
 
 if (localStorage.getItem("light-mode") == "true") {
   document.body.classList.add("light");
-  btnSwitch.classList.add("active");
+  theme.classList.add("active");
 } else {
   document.body.classList.remove("light");
-  btnSwitch.classList.remove("active");
+  theme.classList.remove("active");
 }
 
 // MENU
